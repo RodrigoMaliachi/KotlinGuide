@@ -12,7 +12,7 @@ fun main() {
     println(greetingFunction(readln()))
 
     val secondGreeting: (String) -> String = {
-        "Hello $it again, so you decided to try another"
+        "Hello again $it, so you decided to try another"
     }
 
     println(secondGreeting(readln()))
@@ -26,7 +26,7 @@ fun main() {
     val helloToEverybody = { names: String, cities: String ->
         val citiesList = cities.split('/')
         names.split(',').forEach {
-            println("Hello $it, from ${citiesList.random()}")
+            println("Hello $it, from ${citiesList.shuffled().first()}")
         }
     }
 
@@ -36,7 +36,7 @@ fun main() {
     someStoryFunction("Rodrigo", {"Sup $it, beautiful night"})
     someStoryFunction("MF", ::anotherHiFunction)
     someStoryFunction("Freddie Mercury") { fredy ->
-        "OMG! it's really $fredy? I can't believe it"
+        "OMG! it's really $fredy? I CAN'T BELIEVE IT"
     }
 }
 
