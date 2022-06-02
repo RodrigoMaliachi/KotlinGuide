@@ -1,0 +1,62 @@
+Variables
+	Anatomia de la declaración de una variables
+	Inferencia de tipos
+	Variables var y val
+	Tipos de datos
+	Bytecode de kotlin
+Condicionales
+	When
+		Uso como ciclo de control
+		Uso como expresión
+			Uso extensivo
+Rangos
+	Uso del in
+	Uso del downTo
+	Uso del until
+Etiquetas en Strings
+	Uso del $
+	Uso del ${}
+Funciones
+	Anatomia de la declaración de una función
+	Modificadores de acceso
+	Argumentos predefinidos
+	Funciones de 1 expresion
+	Funcciones Unit
+	Argumentos nombrados
+	Funciones Nothing y TODO
+	Nombres en Backticks `like this`
+Funciones anónimas
+	Tipo Funcion
+	Jump to Source file
+	Retorno de valor implicito
+	Argumentos
+	it
+	Uso de la inferencia de tipos
+	Definiendo una función que acepta otra función
+	Declarando la función fuera de los paréntesis
+	Inline
+	Referencia a una función
+	Funcion como valor de retorno
+Objetos Null
+	Objetos explicitamente de tipo Null
+	Null safety
+		Uso del operador ?
+		Uso de la función let
+		Uso del operador double-bang !!
+Funciones estandar
+	apply
+	let
+	run
+	also
+	takeIf
+Lists & Sets
+	getOrElse
+	getOrElse
+	mutableList
+	Operadores de los mutableList
+		[]=
+		+=
+		-=
+	forEach
+	sets
+	toSet, toList, toMutableSet, toMutableList
