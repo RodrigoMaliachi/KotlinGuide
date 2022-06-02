@@ -23,7 +23,7 @@ Funciones
 	Funciones de 1 expresion
 	Funcciones Unit
 	Argumentos nombrados
-	Funciones Nothing y TODO
+	Funciones Nothing y To do
 	Nombres en Backticks `like this`
 Funciones anónimas
 	Tipo Funcion
@@ -60,3 +60,55 @@ Lists & Sets
 	forEach
 	sets
 	toSet, toList, toMutableSet, toMutableList
+Maps
+    Key to Value
+    Pair objects
+    Accesor functions
+        []
+        getValue
+        getOrElse
+        getOrDefault
+    Mutable Maps
+    map mutator functions
+        =
+        +=
+        put
+        putAll
+        getOrPut
+        remove
+        -
+        -=
+        clear
+Classes
+    Visibility and Encapsulation
+    getters and setters
+    Primary constructors
+    Defining properties in a primary constructor
+    Secondaries constructors
+    Default arguments
+    Named arguments
+    Initializer block
+    Initialization order
+    Late initialization
+    Lazy initialization
+    Subclassing
+    is keyword (Type checking)
+    as keyword (Type casting)
+    object keyword (Singleton classes)
+    Object expressions
+    companion object (Static members and functions)
+    Data classes
+        toString
+        equals
+        copy
+        Operator overloading
+            +   plus
+            +=  plusAssign
+            ==  equals
+            >   compareTo
+            []  get
+            ..  rangeTo
+            in  contains
+Extensions
+Java interoperability
+Introduction to coroutines
